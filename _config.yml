@@ -1,15 +1,15 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: ChaejinE
+description: ML/AI Software Developer
+site_title: '@cjlotto - Chaejin Jeong'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
+github_username: ChaejinE
 blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
+email: joung6517@gmail.com
 keybase_username: abhn
 twitter_username: abhn_
 reddit_username: abhn
