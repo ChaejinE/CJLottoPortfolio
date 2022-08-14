@@ -48,10 +48,7 @@ function blog_posts() {
                 <h3><a href="${post.url}">${post.title}</a></h3>            
 
             </div>
-    
-            <div class="blog-goto-link">
-                <img class="blog-arrow" src="/assets/images/right-open-mini.svg"/>
-            </div>
+            
         </div>
         `;
 
@@ -74,7 +71,7 @@ function blog_posts() {
     </div>
     `;
 
-    post_html.push(post_template);
+    // post_html.push(post_template);
 
     $('#rss-feeds').html(post_html);
 
