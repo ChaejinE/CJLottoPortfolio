@@ -15,15 +15,15 @@ let render_projects = (slug) => {
             link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-1.-Defect-Detection-using-Segmentation',
             title: 'Defect Detection using Segmentation',
             demo: false,
-            technologies: ['Python', 'Keras'],
+            technologies: ['Python', 'TensorFlow2', 'Keras'],
             description: "먼지 검출용 Deep Learning Model 개발",
             categories: ['MachineVision']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
+            image: 'assets/images/defect-detection-cv.jpg',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-2.-Defect-Detection-using-Computer-Vision',
             title: 'Defect Detection using Computer Vision',
-            demo: 'http://wall-e-jekyll.github.io/',
+            demo: false,
             technologies: ['Python', 'OpenCV'],
             description: "성형 불량 및 너트 삽입 불량 검출 S/W 개발",
             categories: ['MachineVision']
