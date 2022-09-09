@@ -29,12 +29,12 @@ let render_projects = (slug) => {
             categories: ['MachineVision']
         },
         {
-            image: 'assets/images/collage.jpg',
+            image: 'assets/images/AMR.jpg',
             link: 'https://github.com/abhn/Marvel',
             title: '자동 물류 운반 AMR 시뮬레이션',
             demo: false,
             technologies: ['Python', 'ROS1', 'Issac-sim'],
-            description: "HancomAcademy 프로젝트, 물류 운반 AMR의 자율 주행 및 대기, 화물 인지, 적재 시나리오 수행",
+            description: "물류 운반 AMR의 자율 주행 및 대기, 화물 인지, 적재 시나리오 수행",
             categories: ['AutonomousDriving']
         },
         {
