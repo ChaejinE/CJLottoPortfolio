@@ -30,9 +30,9 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/AMR.jpg',
-            link: 'https://github.com/abhn/Marvel',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-3.-AMR-Autonomous-Driving-with-Isaac-Sim',
             title: '자동 물류 운반 AMR 시뮬레이션',
-            demo: false,
+            demo: "https://www.youtube.com/watch?v=RTxQUHCtFu8&t=5s",
             technologies: ['Python', 'ROS1', 'Issac-sim'],
             description: "물류 운반 AMR의 자율 주행 및 대기, 화물 인지, 적재 시나리오 수행",
             categories: ['AutonomousDriving']
