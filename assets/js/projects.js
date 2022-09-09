@@ -11,21 +11,21 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: '시료 불량 검출 DL Model 개발',
-            demo: 'https://mporter.co',
-            technologies: ['Python', 'Tensorflow2', 'Segmentation'],
-            description: "먼지 검출용 Deep Learning Model 개발 및 광학 H/W 선정",
+            image: 'assets/images/dust-detection.jpg',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-1.-Defect-Detection-using-Segmentation',
+            title: 'Defect Detection using Segmentation',
+            demo: false,
+            technologies: ['Python', 'Keras'],
+            description: "먼지 검출용 Deep Learning Model 개발",
             categories: ['MachineVision']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
             link: 'https://github.com/abhn/Wall-E',
-            title: '미성형 및 너트 삽입 불량',
+            title: 'Defect Detection using Computer Vision',
             demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Python', 'OpenCV', 'Histogram', 'HSV'],
-            description: "색상 검출을 통한 미성형 및 너트 삽입 불량 검출 S/W 개발",
+            technologies: ['Python', 'OpenCV'],
+            description: "성형 불량 및 너트 삽입 불량 검출 S/W 개발",
             categories: ['MachineVision']
         },
         {
@@ -76,9 +76,9 @@ let render_projects = (slug) => {
     ]
 
     let projects = [];
-    if(slug == 'all') {
+    if (slug == 'all') {
         projects = projects_obj.map(project_mapper);
-    } 
+    }
     else {
         projects = projects_obj.filter(project => project.categories.includes(slug)).map(project_mapper);
     }
@@ -91,13 +91,13 @@ let project_mapper = project => {
                 
             <div class="card radius shadowDepth1">
 
-                ${project.image ? 
-                    `<div class="card__image border-tlr-radius">
+                ${project.image ?
+            `<div class="card__image border-tlr-radius">
                         <a href="${project.link}">
                             <img src="${project.image}" alt="image" id="project-image" class="border-tlr-radius">
                         </a>
-                    </div>`           
-                : ''}
+                    </div>`
+            : ''}
 
         
                 <div class="card__content card__padding">
@@ -111,8 +111,8 @@ let project_mapper = project => {
                                 
                     <div class="card__meta">
                         ${project.technologies.map(tech =>
-                            `<span class="project-technology paragraph-text-normal">${tech}</span>`
-                        ).join('')}
+                `<span class="project-technology paragraph-text-normal">${tech}</span>`
+            ).join('')}
                     </div>
 
                 </div>
