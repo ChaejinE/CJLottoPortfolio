@@ -34,7 +34,7 @@ let render_projects = (slug) => {
             title: 'AMR Autonomous Driving Scenario',
             demo: "https://www.youtube.com/watch?v=RTxQUHCtFu8&t=5s",
             technologies: ['Python', 'ROS1', 'Issac-sim'],
-            description: "물류 운반 AMR의 자율 주행 및 대기, 화물 인지, 적재 시나리오 수행",
+            description: "AMR의 자율 주행 및 대기, 화물 인지, 적재 시나리오 수행",
             categories: ['AutonomousDriving']
         },
         {
