@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-1.-Defect-Detection-using-Segmentation',
             title: 'Defect Detection using Segmentation',
             demo: false,
-            technologies: ['Python', 'TensorFlow2', 'Keras'],
+            technologies: ['TensorFlow2', 'Keras'],
             description: "먼지 검출용 Deep Learning Model 개발",
             categories: ['MachineVision']
         },
@@ -51,7 +51,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-5.-Deep-Learning-Basic-Pipeline-구축-with-Mlflow---Azure',
             title: 'Deep Learning Basic Pipeline 구축 with Mlflow + Azure',
             demo: false,
-            technologies: ['Python', 'Mlflow', 'Azure'],
+            technologies: ['mlflow', 'Azure', 'docker'],
             description: "Mlflow & Azure - Training tracking, Model Versioning 및 Sharing",
             categories: ['MLOps']
         },
@@ -60,7 +60,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-6.-AutoLabeling-System-%EA%B5%AC%EC%B6%95-with-CVAT---nuclio',
             title: 'AutoLabeling System 구축 with CVAT + nuclio',
             demo: false,
-            technologies: ['Python', 'cvat', 'nuclio'],
+            technologies: ['docker', 'nuclio'],
             description: "CVAT Custom Model AutoLabeling System 구축",
             categories: ['MLOps']
         },
@@ -69,7 +69,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-7.-Web-Server-Develop-for-data-extraction',
             title: 'Web Server Develop for data extraction',
             demo: false,
-            technologies: ['django', 'vue.js'],
+            technologies: ['django', 'vue.js', 'docker'],
             description: "Back Office Web Server 개발 - Image Data 추출",
             categories: ['MLOps']
         },
