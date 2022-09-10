@@ -38,39 +38,39 @@ let render_projects = (slug) => {
             categories: ['AutonomousDriving']
         },
         {
-            image: 'assets/images/mpw.jpg',
-            link: 'https://github.com/abhn/mpw',
-            title: 'Camera 기반 3D Position Estimation',
+            image: 'assets/images/3d_transformation.jpg',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-4.-3D-Position-Estimation-using-Single-Cam',
+            title: '3D Position Estimation using Single Cam',
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Cpp', 'ROS2'],
-            description: "Object Detection Bounding Box의 좌표를 통해 Object의 Position(u, v)을 로봇 Baselink 기준 3D Position(x,y,z) 추정",
+            description: "2D Position(u, v)에서 3D Position(x,y,z) for base link 추정",
             categories: ['AutonomousDriving']
         },
         {
-            image: 'assets/images/social-share-count.jpeg',
-            link: 'https://github.com/abhn/Social-Share-Counts',
-            title: 'Model Training with Mlflow + Azure',
+            image: 'assets/images/azure-mlflow.jpg',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-5.-Deep-Learning-Basic-Pipeline-구축-with-Mlflow---Azure',
+            title: 'Deep Learning Basic Pipeline 구축 with Mlflow + Azure',
             demo: false,
             technologies: ['Python', 'Mlflow', 'Azure'],
-            description: "Mlflow + Azure를 이용한 학습 paramaeter, model 저장 및 공유 Basic Pipeline 개발",
+            description: "Mlflow & Azure - Training tracking, Model Versioning 및 Sharing",
             categories: ['MLOps']
         },
         {
-            image: 'assets/images/data-destroyer.png',
-            link: 'https://github.com/abhn/data-destroyer-gui',
-            title: 'AutoLabeling System with CVAT + nuclio',
+            image: 'assets/images/autolabeling.png',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-6.-AutoLabeling-System-%EA%B5%AC%EC%B6%95-with-CVAT---nuclio',
+            title: 'AutoLabeling System 구축 with CVAT + nuclio',
             demo: false,
             technologies: ['Python', 'cvat', 'nuclio'],
-            description: "Custom Model로 cvat에서 AutoLabeling System 구축",
+            description: "CVAT Custom Model AutoLabeling System 구축",
             categories: ['MLOps']
         },
         {
-            image: 'assets/images/raspberry-pi-monitor.png',
-            link: 'https://github.com/abhn/RPi-Status-Monitor',
-            title: 'Data Extractor',
+            image: 'assets/images/data-extractor.jpg',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-7.-Web-Server-Develop-for-data-extraction',
+            title: 'Web Server Develop for data extraction',
             demo: false,
-            technologies: ['python', 'django', 'vue.js'],
-            description: "Image Data 추출을 위한 백오피스 웹 Tool 개발",
+            technologies: ['django', 'vue.js'],
+            description: "Back Office Web Server 개발 - Image Data 추출",
             categories: ['MLOps']
         },
     ]
