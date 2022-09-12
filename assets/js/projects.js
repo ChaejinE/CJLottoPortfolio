@@ -30,7 +30,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/AMR.jpg',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-3.-AMR-Autonomous-Driving-with-Isaac-Sim',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-3.-%5BEducation%5D-AMR-Autonomous-Driving-with-Isaac-Sim',
             title: 'AMR Autonomous Driving Scenario',
             demo: "https://www.youtube.com/watch?v=RTxQUHCtFu8&t=5s",
             technologies: ['Python', 'ROS1', 'Issac-sim'],
@@ -48,8 +48,8 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/azure-mlflow.jpg',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-5.-Deep-Learning-Basic-Pipeline-구축-with-Mlflow---Azure',
-            title: 'Deep Learning Basic Pipeline 구축 with Mlflow + Azure',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-5.-Deep-Learning-Basic-Training-Pipeline-%EA%B5%AC%EC%B6%95-with-Mlflow-&-Azure-MLStudio',
+            title: 'Deep Learning Basic Training Pipeline 구축 with Mlflow & Azure MLStudio',
             demo: false,
             technologies: ['mlflow', 'Azure', 'docker'],
             description: "Mlflow & Azure - Training tracking, Model Versioning 및 Sharing",
