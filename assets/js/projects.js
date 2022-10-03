@@ -71,7 +71,16 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['django', 'vue.js', 'docker'],
             description: "Back Office Web Server 개발 - Image Data 추출",
-            categories: ['MLOps']
+            categories: ['MLOps', 'DataOps']
+        },
+        {
+            image: 'assets/images/data-extractor.jpg',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-8.-Web-Server-Develop-for-data-upload',
+            title: 'Web Server Develop for data upload',
+            demo: false,
+            technologies: ['django', 'vue.js', 'docker'],
+            description: "Back Office Web Server 개발 - Data Upload 자동화",
+            categories: ['MLOps', 'DataOps']
         },
     ]
 
