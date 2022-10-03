@@ -74,7 +74,7 @@ let render_projects = (slug) => {
             categories: ['MLOps', 'DataOps']
         },
         {
-            image: 'assets/images/data-extractor.jpg',
+            image: 'assets/images/data_upload.jpg',
             link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-8.-Web-Server-Develop-for-data-upload',
             title: 'Web Server Develop for data upload',
             demo: false,
