@@ -21,7 +21,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/AMR.jpg',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-3.-%5BEducation%5D-AMR-Autonomous-Driving-with-Isaac-Sim',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-2.-%5BEducation%5D-AMR-Autonomous-Driving-with-Isaac-Sim',
             title: 'AMR Autonomous Driving Scenario',
             demo: "https://www.youtube.com/watch?v=RTxQUHCtFu8&t=5s",
             technologies: ['Python', 'ROS1', 'Issac-sim'],
