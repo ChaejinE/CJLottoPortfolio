@@ -12,20 +12,11 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/dust-detection.jpg',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-1.-Defect-Detection-using-Segmentation',
-            title: 'Defect Detection using Segmentation',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-1.-Defect-Detection',
+            title: 'Defect Detection',
             demo: false,
-            technologies: ['TensorFlow2', 'Keras'],
-            description: "먼지 검출용 Deep Learning Model 개발",
-            categories: ['MachineVision']
-        },
-        {
-            image: 'assets/images/defect-detection-cv.jpg',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-2.-Defect-Detection-using-Computer-Vision',
-            title: 'Defect Detection using Computer Vision',
-            demo: false,
-            technologies: ['Python', 'OpenCV'],
-            description: "성형 불량 및 너트 삽입 불량 검출 S/W 개발",
+            technologies: ['tensorflow2', 'openCV'],
+            description: "Defects Inspection S/W Develop",
             categories: ['MachineVision']
         },
         {
@@ -38,49 +29,22 @@ let render_projects = (slug) => {
             categories: ['AutonomousDriving']
         },
         {
+            image: 'assets/images/azure-mlflow.jpg',
+            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-3.-MLOps-Basic-Pipeline-%EA%B5%AC%EC%B6%95',
+            title: 'MLOps Basic Pipeline',
+            demo: false,
+            technologies: ['mlflow', 'Azure', 'docker', 'django', 'vue.js'],
+            description: "From data collection to deep learning model deployment",
+            categories: ['MLOps']
+        },
+        {
             image: 'assets/images/3d_transformation.jpg',
             link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-4.-3D-Position-Estimation-using-Single-Cam',
             title: '3D Position Estimation using Single Cam',
             demo: 'https://www.nagekar.com/mpw',
             technologies: ['Cpp', 'ROS2'],
-            description: "2D Position(u, v)에서 3D Position(x,y,z) for base link 추정",
+            description: "2D Position(u, v)에서 3D Position(x,y,z) 추정",
             categories: ['AutonomousDriving']
-        },
-        {
-            image: 'assets/images/azure-mlflow.jpg',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-5.-Deep-Learning-Basic-Training-Pipeline-%EA%B5%AC%EC%B6%95-with-Mlflow-&-Azure-MLStudio',
-            title: 'Deep Learning Basic Training Pipeline 구축 with Mlflow & Azure MLStudio',
-            demo: false,
-            technologies: ['mlflow', 'Azure', 'docker'],
-            description: "Mlflow & Azure - Training tracking, Model Versioning 및 Sharing",
-            categories: ['MLOps']
-        },
-        {
-            image: 'assets/images/autolabeling.png',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-6.-AutoLabeling-System-%EA%B5%AC%EC%B6%95-with-CVAT---nuclio',
-            title: 'AutoLabeling System 구축 with CVAT + nuclio',
-            demo: false,
-            technologies: ['docker', 'nuclio'],
-            description: "CVAT Custom Model AutoLabeling System 구축",
-            categories: ['MLOps']
-        },
-        {
-            image: 'assets/images/data-extractor.jpg',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-7.-Web-Server-Develop-for-data-extraction',
-            title: 'Web Server Develop for data extraction',
-            demo: false,
-            technologies: ['django', 'vue.js', 'docker'],
-            description: "Back Office Web Server 개발 - Image Data 추출",
-            categories: ['MLOps', 'DataOps']
-        },
-        {
-            image: 'assets/images/data_upload.jpg',
-            link: 'https://github.com/ChaejinE/ChaejinE/wiki/Project-8.-Web-Server-Develop-for-data-upload',
-            title: 'Web Server Develop for data upload',
-            demo: false,
-            technologies: ['django', 'vue.js', 'docker'],
-            description: "Back Office Web Server 개발 - Data Upload 자동화",
-            categories: ['MLOps', 'DataOps']
         },
     ]
 
